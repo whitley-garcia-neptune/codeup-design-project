@@ -26,6 +26,11 @@ h2{
     margin: 1em 0;
     font-size: 48px;
 }
+h5 {
+    margin: 2em;
+    border-top: 2px solid gray;
+}
+
 .bold{
     font-weight: bold;
 }
@@ -45,11 +50,33 @@ section{
     border-radius: 100%;
     align-items: center;
     justify-content: space-around;
-    /*margin: 1em;*/
+    margin: .25em;
+}
+.little-circle {
+    width: 18px;
+    height: 18px;
+    font-weight: bold;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 0;
+}
+.apples {
+    width: 100%;
 }
 .text-design {
     color: var(--light-color);
     font-weight: bold;
+}
+.card {
+    background-color: var(--gray-color);
+    width: 100%;
+    border: none;
+}
+.card-body {
+    justify-content: space-between;
+    padding: 10px 0;
 }
 .red {
     background: var(--red-color);
