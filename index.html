@@ -12,7 +12,9 @@
 </head>
 <body class="container-xs">
     <header class="text-center">
+        <div class="container">
             <img class="image-xs" src="images/logo.png" alt="Logo for the company">
+        </div>
         <h2>codeup design</h2>
         <div class="row">
             <nav>Service, work, blog, contact</nav>
@@ -21,12 +23,24 @@
         <h2 class="bold">FROM PARK CITY, UTAH</h2>
     </header>
     <main class="container">
-        <ul class="row d-flex list-unstyled justify-content-center text-center">
-            <li class="red d-flex col-sm-4 col-md-6"><p>DESIGN</p></li>
-            <li class="orange d-flex col-sm-4 col-md-6"><p>DEVELOP</p></li>
-            <li class="green d-flex col-sm-4 col-md-6"><p>SUPPORT</p></li>
-            <li class="blue d-flex col-sm-4 col-md-6"><p>HOST</p></li>
-        </ul>
+        <div class="row d-flex justify-content-center text-center">
+            <section class="col-6">
+                <div class="col-sm-6 col-md-6">
+                    <div class="circle red d-flex text-design">DESIGN</div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="circle orange d-flex text-design">DEVELOP</div>
+                </div>
+            </section>
+            <section class="col-6">
+                <div class="col-sm-6 col-md-6">
+                    <div class="circle green d-flex text-design">SUPPORT</div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="circle blue d-flex text-design">HOST</div>
+                </div>
+            </section>
+        </div>
         <h5 class="text-center">SELECTED WORK</h5>
     </main>
     <footer>
