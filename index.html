@@ -38,31 +38,73 @@
             <div class="circle blue d-flex text-design">HOST</div>
         </div>
     </div>
-    <div class="cross-section">
-        <h5 class="text-center">SELECTED WORK</h5>
-    </div>
+    <hr class="d-none d-sm-block">
+
+    <!--SELECTED WORK-->
+    <section class="extra-space">
+        <!--xs screen-->
+        <h5 class="text-center no-m d-block d-sm-none">SELECTED WORK</h5>
+        <!--sm screen-->
+        <div class="d-none d-sm-block d-md-none">
+            <h5 class="text-center no-m">SELECTED WORK</h5>
+        </div>
+    </section>
 </main>
-<div class="text-center d-block d-sm-none">
-    <img class="apples" src="images/apple-ipad.jpg" alt="apples on laptop">
-    <div class="card-body d-flex">
-        <div>
-            FEATURED PROJECT
-        </div>
-        <div class="d-flex">
-            <div class="red d-flex little-circle col-1">D</div>
-            <div class="orange d-flex little-circle col-1">D</div>
-            <div class="green d-flex little-circle col-1">S</div>
-            <div class="blue d-flex little-circle col-1">H</div>
+<!--Display only in xs window-->
+<section class="footer-box">
+    <div class="text-center d-block d-sm-none">
+        <img class="apples" src="images/apple-ipad.jpg" alt="apples on laptop">
+        <div class="card-body d-flex">
+            <div>
+                FEATURED PROJECT
+            </div>
+            <div class="d-flex">
+                <div class="red d-flex little-circle col-1">D</div>
+                <div class="orange d-flex little-circle col-1">D</div>
+                <div class="green d-flex little-circle col-1">S</div>
+                <div class="blue d-flex little-circle col-1">H</div>
+            </div>
         </div>
     </div>
-</div>
-<footer>
-    <div class="row">
-            <div class="text-center col-sm-10 col-md-8 d-none d-sm-block">
-                <!--IMAGE OF APPLES ON A LAPTOP-->
-                <div class="row">
+    <!--Small screen footer and up-->
+    <footer>
+<!--        <h5 class="no-m text-left">selected work</h5>-->
+        <div class="row">
+                <div class="text-center col-sm-10 col-md-9 d-none d-sm-block">
+                    <!--IMAGE OF APPLES ON A LAPTOP-->
+                    <div class="row">
+                        <div class="col-6">
+                            <img class="apples" src="images/apple-ipad.jpg" alt="apples on laptop">
+                            <div class="card-body d-flex">
+                                <div>
+                                    FEATURED PROJECT
+                                </div>
+                                <div class="d-flex">
+                                    <div class="red d-flex little-circle col-1">D</div>
+                                    <div class="orange d-flex little-circle col-1">D</div>
+                                    <div class="green d-flex little-circle col-1">S</div>
+                                    <div class="blue d-flex little-circle col-1">H</div>
+                                </div>
+                            </div>
+                        </div>
+                    <!--IMAGE OF COMPUTERS-->
+                        <div class="col-6">
+                            <img class="apples" src="images/macbook.jpg" alt="laptop">
+                            <div class="card-body d-flex">
+                                <div>
+                                    FEATURED PROJECT
+                                </div>
+                                <div class="d-flex">
+                                    <div class="red d-flex little-circle col-1">D</div>
+                                    <div class="orange d-flex little-circle col-1">D</div>
+                                    <div class="green d-flex little-circle col-1">S</div>
+                                    <div class="blue d-flex little-circle col-1">H</div>
+                                </div>
+                            </div>
+                        </div>
+                    <!--IMAGE OF A MAN LOOKING AWAY-->
                     <div class="col-6">
-                        <img class="apples" src="images/apple-ipad.jpg" alt="apples on laptop">
+                        <img class="apples" src="images/man.jpg" alt="image of man">
                         <div class="card-body d-flex">
                             <div>
                                 FEATURED PROJECT
@@ -75,9 +117,9 @@
                             </div>
                         </div>
                     </div>
-                <!--IMAGE OF COMPUTERS-->
+                    <!--IMAGE OF A SECURITY WEBPAGE-->
                     <div class="col-6">
-                        <img class="apples" src="images/macbook.jpg" alt="laptop">
+                        <img class="apples" src="images/security.jpg" alt="super secure (pew pew)">
                         <div class="card-body d-flex">
                             <div>
                                 FEATURED PROJECT
@@ -90,59 +132,29 @@
                             </div>
                         </div>
                     </div>
-                <!--IMAGE OF A MAN LOOKING AWAY-->
-                <div class="col-6">
-                    <img class="apples" src="images/man.jpg" alt="image of man">
-                    <div class="card-body d-flex">
-                        <div>
-                            FEATURED PROJECT
-                        </div>
-                        <div class="d-flex">
-                            <div class="red d-flex little-circle col-1">D</div>
-                            <div class="orange d-flex little-circle col-1">D</div>
-                            <div class="green d-flex little-circle col-1">S</div>
-                            <div class="blue d-flex little-circle col-1">H</div>
-                        </div>
-                    </div>
                 </div>
-                <!--IMAGE OF A SECURITY WEBPAGE-->
-                <div class="col-6">
-                    <img class="apples" src="images/security.jpg" alt="super secure (pew pew)">
-                    <div class="card-body d-flex">
-                        <div>
-                            FEATURED PROJECT
-                        </div>
-                        <div class="d-flex">
-                            <div class="red d-flex little-circle col-1">D</div>
-                            <div class="orange d-flex little-circle col-1">D</div>
-                            <div class="green d-flex little-circle col-1">S</div>
-                            <div class="blue d-flex little-circle col-1">H</div>
-                        </div>
-                    </div>
+            </div>
+            <div class="col-3 d-none d-md-block">
+            <!--3 little images-->
+                <div class="row side-bar-image">
+                    <img class="side-img col-4" src="images/mobile-phone.jpg" alt="cell phone">
+                    <p class="no-m col-7">THE ADMIN BAR AND ABSOLUTE POSITIONING</p>
+                </div>
+                <div class="row side-bar-image">
+                    <img class="side-img col-4" src="images/head.jpg" alt="digital head">
+                    <p class="no-m col-7">NIBBLER AWESOME WEBSITE TESTING</p>
+                </div>
+                <div class="row side-bar-image">
+                    <img class="side-img col-4" src="images/ipad.jpg" alt="viewing ipad">
+                    <p class="no-m col-7">HOW TO GET GOOGLE TO LIKE YOU</p>
+                </div>
+                <div class="row side-bar-tweet">
+<!--                    <h6 class="col-12">LAST TWEET</h6>-->
+<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae delectus earum itaque magni odit quaerat quas totam. Consectetur consequuntur distinctio earum id illo molestias nihil nisi officia sunt, temporibus! Adipisci?</p>-->
                 </div>
             </div>
         </div>
-        <div class="col-4 d-none d-md-block">
-        <!--3 little images-->
-            <h5 class="no-m">THE LAST</h5>
-            <div class="row side-bar-image">
-                <img class="side-img col-3" src="images/mobile-phone.jpg" alt="cell phone">
-                <h5 class="no-m col-9">THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
-            </div>
-            <div class="row side-bar-image">
-                <img class="side-img col-3" src="images/head.jpg" alt="digital head">
-                <h5 class="no-m col-9">NIBBLER AWESOME WEBSITE TESTING</h5>
-            </div>
-            <div class="row side-bar-image">
-                <img class="side-img col-3" src="images/ipad.jpg" alt="viewing ipad">
-                <h5 class="no-m col-9">HOW TO GET GOOGLE TO LIKE YOU</h5>
-            </div>
-            <div class="row side-bar-tweet">
-                <h6 class="col-12">LAST TWEET</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae delectus earum itaque magni odit quaerat quas totam. Consectetur consequuntur distinctio earum id illo molestias nihil nisi officia sunt, temporibus! Adipisci?</p>
-            </div>
-        </div>
-    </div>
-</footer>
+    </footer>
+</section>
 </body>
 </html>

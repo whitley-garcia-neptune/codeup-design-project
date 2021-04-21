@@ -57,7 +57,6 @@ section{
     border-radius: 100%;
     align-items: center;
     justify-content: space-around;
-    margin: .25em;
 }
 .little-circle {
     width: 18px;
@@ -71,6 +70,14 @@ section{
 }
 .text-center{
     margin: auto;
+}
+.footer-box{
+    width: 90%;
+    margin: 1em auto 1em auto;
+}
+.extra-space{
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 .apples {
     width: 100%;
@@ -93,11 +100,20 @@ section{
     padding: 10px 0;
 }
 .side-bar-image{
-    margin: 2em 5px;
+    width: 300px;
+    height: 75px;
+    /*margin: 2em 5px;*/
+    margin-bottom: 50px;
+}
+.side-img{
+    margin-right: 5px;
 }
 .side-bar-tweet{
     margin: 1em 5px;
     padding-top: 1em;
+}
+div>p{
+    width: 100%;
 }
 .hidden-mdn {
 
