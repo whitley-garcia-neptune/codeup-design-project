@@ -31,6 +31,9 @@ h5 {
     margin: 2em;
     /*border-top: 2px solid gray;*/
 }
+.no-m{
+    margin: 0;
+}
 
 .bold{
     font-weight: bold;
@@ -85,6 +88,13 @@ section{
 .card-body {
     justify-content: space-between;
     padding: 10px 0;
+}
+.side-bar-image{
+    margin: 2em 5px;
+}
+.side-bar-tweet{
+    margin: 1em 5px;
+    padding-top: 1em;
 }
 .hidden-mdn {
 
