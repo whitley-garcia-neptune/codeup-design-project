@@ -50,7 +50,23 @@ h5 {
     height: 105px;
     flex-shrink: 0;
     top: 50px;
-
+}
+.head-md {
+    display: flex;
+    flex-direction: row;
+}
+.positioning-h{
+    margin-top: 68px;
+}
+.space-apart{
+    margin-left: 510px;
+    top: 50px;
+    display: flex;
+    position: absolute;
+}
+.space{
+    margin-right: 10px;
+    position: relative;
 }
 section{
     padding: 0;
@@ -135,13 +151,6 @@ nav>h5 {
 .nav-md {
     z-index: 2;!important;
     position: relative;
-    align-self: center;
-}
-
-.head-md {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-self: center;
 }
 .red {
