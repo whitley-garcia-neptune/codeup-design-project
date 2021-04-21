@@ -6,6 +6,7 @@
     --light-color: #F0F0F0;
     --gray-color: #E6E6E6;
 }
+
 body {
     background-color: var(--light-color);
 }
@@ -85,6 +86,10 @@ section{
     justify-content: space-between;
     padding: 10px 0;
 }
+.hidden-mdn {
+
+}
+
 .red {
     background: var(--red-color);
 
