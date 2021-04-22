@@ -26,15 +26,21 @@ body {
     margin-right: auto;
 }
 h1{
+    font-family: Anton;
     font-size: 64px;
 }
 h2{
+    font-family: Anton;
     margin: 1em 0;
     font-size: 48px;
 }
 h5 {
+    font-family: Anton;
     margin: 2em;
     /*border-top: 2px solid gray;*/
+}
+.re-size {
+    font-family: Abel;
 }
 .no-m{
     margin: 0;
@@ -51,12 +57,27 @@ h5 {
     flex-shrink: 0;
     top: 50px;
 }
+.logo-lg {
+    width: 105px;
+    height: 105px;
+    flex-shrink: 0;
+    top: 50px;
+}
 .head-md {
     display: flex;
     flex-direction: row;
 }
+.head-l {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .positioning-h{
     margin-top: 68px;
+}
+.positioning-l {
+    margin-top: 68px;
+    margin-right: 200px;
 }
 .space-apart{
     margin-left: 510px;
@@ -64,9 +85,16 @@ h5 {
     display: flex;
     position: absolute;
 }
+.space-between{
+    /*margin-left: 510px;*/
+    top: 50px;
+    display: flex;
+    /*justify-content: flex-end;*/
+    position: relative;
+}
 .space{
     margin-right: 10px;
-    position: relative;
+    /*position: relative;*/
 }
 section{
     padding: 0;
@@ -149,9 +177,17 @@ nav>h5 {
     top: -58px;
 }
 .nav-md {
-    z-index: 2;!important;
+    z-index: 2;
     position: relative;
     align-self: center;
+}
+.nav-lg {
+    z-index: 2;
+    /*position: relative;*/
+    /*align-self: center;*/
+}
+p{
+    font-family: Abel;
 }
 .red {
     background: var(--red-color);
